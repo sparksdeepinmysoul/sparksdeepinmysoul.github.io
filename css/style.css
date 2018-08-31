@@ -1,0 +1,56 @@
+body {
+    margin: 0;
+    background-image: url(/img/ghostintheshell.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover; 
+}
+
+#canvas {
+  position: absolute;
+  display: block;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+
+/* text attribute */
+p {
+	font-family: Courier;
+	color: #000000;
+	background: rgba(192, 192, 192, 0.3);
+	font-size: 16px;
+	text-align: center;
+}
+
+html, body {
+  height: 100%;
+  margin: 0;
+}
+.container {
+  width: 100%;
+  height: 100%;
+  display: table;
+}
+.container .row {
+  display: table-row;
+}
+.container .cell {
+  display: table-cell;
+}
+.logo .cell {
+  vertical-align: top;
+  text-align:center;
+}
+.nav .cell {
+  vertical-align: middle;
+  text-align:center;
+}
+.base .cell {
+  vertical-align: bottom;
+  text-align:center;
+}
